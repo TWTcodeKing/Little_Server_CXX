@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/twt/Desktop/LittleServer/lock/lock.h
+pthread.h
+-
+semaphore.h
+-
+
+/home/twt/Desktop/LittleServer/threadpool/test.c
+thread_pool.h
+/home/twt/Desktop/LittleServer/threadpool/thread_pool.h
+stdio.h
+-
+string
+-
+unistd.h
+-
+
+/home/twt/Desktop/LittleServer/threadpool/thread_pool.h
+../lock/lock.h
+/home/twt/Desktop/LittleServer/lock/lock.h
+exception.h
+-
+cstdio.h
+-
+list
+-
+
